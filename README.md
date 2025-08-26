@@ -61,17 +61,17 @@ python search_agent_app.py
 Q1: Who won the T-20 World Cup in 2022?
 Agent used Firecrawl search to fetch real-world info.
 
-![Q1 Output](images/p-1.PNG)
+![Q1 Output](images/p-1.png)
 
 Q2: What is the Pythagorean theorem?
 Agent answered directly using built-in LLM knowledge.
 
-![Q2 Output](images/p-2.PNG)
+![Q2 Output](images/p-2.png)
 
 Q3: What is the capital of Norway, and what are the headlines there today?
 Agent combined reasoning + Firecrawl search (knew Oslo, fetched fresh headlines).
 
-![Q3 Output](images/p-3.PNG)
+![Q3 Output](images/p-3.png)
 
 
 📖 Documentation / Reflection
