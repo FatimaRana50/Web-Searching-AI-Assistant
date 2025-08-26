@@ -75,22 +75,26 @@ Agent combined reasoning + Firecrawl search (knew Oslo, fetched fresh headlines)
 
 
 📖 Documentation / Reflection
+
 🔧 Search Tool Design
 Implemented firecrawl_search() that queries Firecrawl and formats results.
 
 Integrated into LangChain as a Tool, letting the agent decide when to use it.
 
 📊 Observations
+
 Static facts (math, theory): answered directly.
 
 Dynamic events (sports winners, news): triggered web search.
 
 🌍 Real-World Value
+
 Creates a hybrid AI system: reasoning + real-time awareness.
 
 Useful for assistants that need fresh data, not just static knowledge.
 
 ⚠️ Challenges & Fixes
+
 Rate Limit Errors → handled by retrying after cooldown.
 
 GitHub Secret Protection → solved by adding .env to .gitignore and removing secrets from commits.
@@ -98,6 +102,7 @@ GitHub Secret Protection → solved by adding .env to .gitignore and removing se
 Windows Git Commands → used PowerShell-compatible syntax instead of Bash.
 
 ✅ Conclusion
+
 This project demonstrates how to integrate LLM reasoning with real-time web search.
 It’s a foundation for building more practical AI apps like personal research assistants, news trackers, and intelligent chatbots.
 
